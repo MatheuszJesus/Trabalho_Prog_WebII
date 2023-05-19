@@ -192,8 +192,8 @@ h1,h2,h3,h4,h5,h6, p { /*cor das letras*/
 .brinque {/*div*/
  display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 30px;
-	padding: 100px;
+	gap: 20px;
+	padding: 50px;
     justify-items: center;
     align-items: center;
 }
@@ -202,8 +202,9 @@ h1,h2,h3,h4,h5,h6, p { /*cor das letras*/
 	max-width: 50%;
 	height: auto;
     border:5px solid #ffffff;
-    margin: 10px;
-    
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 #b{/*aluguel em meses e preço*/
@@ -234,3 +235,28 @@ h1,h2,h3,h4,h5,h6, p { /*cor das letras*/
     position: relative;
     text-decoration: none;
 }
+/*cupom*/
+#content2{
+    grid-area: "content";
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+}
+#cupom{
+
+	background: linear-gradient(to bottom, #ffffff, #c3c3ff);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto4{
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+}
+

@@ -35,9 +35,16 @@
                 <a class="amarelo" id="carrinho">Carrinho</a>
             </div>
     </div>
+    <div id="content2">
+        <div id="cupom"><!--CUPOM-->
+            <h1 class="cortexto2" id="texto4">Ganhe 10% de desconto na sua primeira compra <br> na nossa loja usando o cupom
+            TOYSTORE10<br> + FRETE GRÁTIS em compras acima de 199,99 reais.</h1>
+        </div>
+   
+    </div>
      <header>
         <br>
-        <h1>Brinquedos disponiveis</h1>
+        <h1>Brinquedos disponiveis</h1><!--titulo-->
         <br>
         <h5>Em nossa loja você irá  encontrar os mais diversos brinquedos para o(a) seu(sua) filho(a)!</h5>
         <br>
