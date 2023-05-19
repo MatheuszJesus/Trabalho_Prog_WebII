@@ -6,6 +6,7 @@
 body{
     background-color: white;
     display: grid;
+    font-family: 'Kanit', sans-serif;
     grid-template-areas: 
     'header'
     'content'
@@ -165,6 +166,71 @@ body{
 }
 
 
+/* PAGINA DE PRODUTOS  */
+
+h1,h2,h3,h4,h5,h6, p { /*cor das letras*/
+	color: #445e8c;
+    text-align: center;
+}
+.bloco{
+
+	
+   background-color: #ffffff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	min-height: 350px;
+	min-width: 400px;
+    max-width: 30%;
+	padding: 10px;
+	border-radius: 8px;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
 
+}
+.brinque {/*div*/
+ display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3Spx;
+	padding: 20px;
+    justify-items: center;
+    align-items: center;
+}
 
+.brinque img {/*imagens dos produtos*/
+	max-width: 50%;
+	height: auto;
+    border:5px solid #ffffff;
+    margin: 10px;
+    
+}
+
+#b{/*aluguel em meses e preço*/
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:8px;
+}
+#b h4{
+    margin:8px;
+}
+
+ .botao {/*alugar agora*/
+	background-color: #445e8c;
+	border: none;
+	padding: 10px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+    border-radius: 5px;
+    margin: 6px;
+}
+.branco{
+    color: #ffffff ;
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+}

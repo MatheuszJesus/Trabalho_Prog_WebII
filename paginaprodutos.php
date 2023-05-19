@@ -1,0 +1,79 @@
+<?php
+
+    require "dados.php";
+
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>toystore</title>
+</head>
+<body>
+
+
+
+    <div id="header"><!--MENU-->
+            <img src="img/logo.png" alt="Logo do Site ToyStore Brinquedos" id="logo">
+
+            <div id="barra">
+                <a href="paginaprincipal.php" class="amarelo" id="empresa">Empresa</a>
+                <a class="amarelo" id="cupons">Cupons</a>
+                <a href="" class="amarelo" id="contato">Contato</a>
+                <a class="amarelo" id="carrinho">Carrinho</a>
+            </div>
+    </div>
+     <header>
+        <br>
+        <h1>Brinquedos disponiveis</h1>
+        <br>
+        <h5>Em nossa loja você irá  encontrar os mais diversos brinquedos para o(a) seu(sua) filho(a)!</h5>
+        <br>
+    </header>
+	<div class="brinque">
+		<?php
+            foreach($brinquedos as $i => $brinque){
+        ?>
+		<div class="bloco">
+
+            <a href="brinquedos.php?i=<?=$i?>">
+			    <img src="<?=$brinque['foto']?>" alt="<?=$brinque['brinquedo']?>">
+            </a>
+
+                <div id=b ><!--meses e preço-->
+                <h4 href="brinquedos.php?i=<?=$i?>">
+                    <?=$brinque['aluguel1']?><br>
+                    <strong><?=$brinque['preço1']?></strong>
+                </h4>
+                <h4 href="brinquedos.php?i=<?=$i?>">
+                    <?=$brinque['aluguel2']?><br>
+                    <strong><?=$brinque['preço2']?></strong>
+                </h4>
+                <h4 href="brinquedos.php?i=<?=$i?>">
+                    <?=$brinque['aluguel3']?><br>
+                    <strong><?=$brinque['preço3']?></strong>
+                </h4></div>
+<div class="botao">
+          <a class="branco" href="brinquedos.php?i=<?=$i?>"><!--botao para alugar-->
+               Alugar agora 
+            </a>
+		</div>
+		</div>
+
+        <?php
+            }
+        ?>
+</body>
+</html>

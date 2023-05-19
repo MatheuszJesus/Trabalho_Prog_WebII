@@ -18,7 +18,7 @@
 
 
     <div id="header">
-            <img src="imgs/logo.png" alt="Logo do Site ToyStore Brinquedos" id="logo">
+            <img src="img/logo.png" alt="Logo do Site ToyStore Brinquedos" id="logo">
 
             <div id="barra">
                 <a class="amarelo" id="empresa">Empresa</a>
@@ -45,7 +45,7 @@
         </div>
         <div id="botaoproduto">
             <div id="quadrado">
-                <a href="" class="amarelo" id="produtos"> PRODUTOS</a>
+                <a href="paginaprodutos.php" class="amarelo" id="produtos"> PRODUTOS</a>
             </div>
         </div>
     </div>
