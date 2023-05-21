@@ -1,15 +1,23 @@
 <?php
 
-    require "dados.php";
+require "dados.php";
 
+if (!isset($_GET["i"])) {
+    header("location: paginaprodutos.php");
+    die;
+}
+
+$prod = $_GET["i"];
+
+if (isset($brinquedos[$prod])) {
+    $brinque = $brinquedos[$prod];
+}
 
 ?>
-
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -32,60 +40,52 @@
                 <a href="paginaprincipal.php" class="amarelo" id="empresa">Empresa</a>
                 <a href="paginaprodutos.php" class="amarelo" id="produtos">Produtos</a>
                 <a href="" class="amarelo" id="contato">Contato</a>
-                <a href="paginacarrinhos.php" class="amarelo" id="carrinho">Carrinho</a>
+                <a class="amarelo" id="carrinho">Carrinho</a>
             </div>
     </div>
-    <div id="content2">
-        <div id="cupom"><!--CUPOM-->
-            <h1 class="cortexto2" id="texto4">Ganhe 10% de desconto na sua primeira compra <br> na nossa loja usando o cupom
-            TOYSTORE10<br> + FRETE GRÁTIS em compras acima de 199,99 reais.</h1>
-        </div>
-   
-    </div>
-     <header>
-        <br>
-        <h1>Brinquedos disponiveis</h1><!--titulo-->
-        <br>
-        <h5>Em nossa loja você irá  encontrar os mais diversos brinquedos para o(a) seu(sua) filho(a)!</h5>
-        <br>
-    </header>
-	<div class="brinque">
-		<?php
-            foreach($brinquedos as $i => $brinque){
-        ?>
-		<div class="bloco">
+		
+		<div class="brinque2">
+            <?php
+                if (isset($brinque)) {
+            ?>
 
-            <a href="paginaprodutosdetalhe.php?i=<?=$i?>">
+<div class="blocod">
+            <h3><?=$brinque['brinquedo']?></h3>
+            <a>
 			    <img src="<?=$brinque['foto']?>" alt="<?=$brinque['brinquedo']?>">
             </a>
 
-                <div id=b ><!--meses e preço-->
-                <h4 href="paginaprodutosdetalhe.php?i=<?=$i?>">
+                <div id=bd ><!--meses e preço-->
+                <h4>
                     <?=$brinque['aluguel1']?><br>
                     <strong><?=$brinque['preço1']?></strong>
                 </h4>
-                <h4 href="paginaprodutosdetalhe.php?i=<?=$i?>">
+                <h4>
                     <?=$brinque['aluguel2']?><br>
                     <strong><?=$brinque['preço2']?></strong>
                 </h4>
-                <h4 href="paginaprodutosdetalhe.php?i=<?=$i?>">
+                <h4>
                     <?=$brinque['aluguel3']?><br>
                     <strong><?=$brinque['preço3']?></strong>
                 </h4></div>
 <div class="botao">
-          <a class="branco" href="paginaprodutosdetalhe.php?i=<?=$i?>"><!--botao para alugar-->
+          <a class="branco" href="paginacarrinhos.php?i=<?=$i?>"><!--botao para alugar-->
                Alugar agora 
             </a>
+                </div>
+</div>
+            <?php
+                }else{
+                    echo "<h3>Produto não encontrado.</h3>";
+                }
+            ?>
 		</div>
-		</div>
-
-        <?php
-            }
-        ?>
-    </div>
-        	<!-- FINAL DA PAGINA  -->	
+			<h2 class="h21">DESCRIÇÃO DO BRINQUEDO</h2>
+		<p class="p1 "><?=$brinque['funcionamento']?> </p>
+	<!-- FINAL DA PAGINA  -->	
 	<footer id="rodape">
 		<p class="fim"><br>&copy; 2023 T0YSTORE&trade; - Todos os direitos reservados.</p>
 	</footer>
+			
 </body>
 </html>

@@ -22,7 +22,7 @@
 
             <div id="barra">
                 <a class="amarelo" id="empresa">Empresa</a>
-                <a href="" class="amarelo" id="produtos">Produtos</a>
+                <a href="paginaprodutos.php" class="amarelo" id="produtos">Produtos</a>
                 <a href="" class="amarelo" id="contato">Contato</a>
                 <a class="amarelo" id="carrinho">Carrinho</a>
             </div>
@@ -34,7 +34,7 @@
             <h3 class="cortexto2" id="texto2">O melhor para sua criança, com praticidade, <br> segurança, higiene e preços<br> acessíveis.</h3>
         </div>
         <div id="conteudopt2">
-             <img src="imgs/margin_10px_-removebg-preview.png" alt="Imagem de um bebê com brinquedo" id="imgbebe">
+             <img src="img/bebeprinc.png" alt="Imagem de um bebê com brinquedo" id="imgbebe">
         </div>
     </div>
     <div id="footer">
@@ -50,6 +50,12 @@
         </div>
     </div>
 
+
+    	<!-- FINAL DA PAGINA  -->	
+	<footer id="rodape">
+		<p class="fim"><br>&copy; 2023 T0YSTORE&trade; - Todos os direitos reservados.</p>
+	</footer>
+    
 </body>
 </html>
 

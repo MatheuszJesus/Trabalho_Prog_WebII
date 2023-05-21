@@ -13,7 +13,9 @@ body{
     'footer'
     ;
 }
-
+div {
+    display: flex;
+}
 #header{
     grid-area: "header";
     background-color: #73c9eb;
@@ -47,7 +49,17 @@ body{
     font-size: 25px;
     position: relative;
     text-decoration: none;
+    
 }
+
+/*.amarelo:hover{
+    color:white;
+    background-color:#73c9eb ;
+    transition:0.7s;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    width:10%;
+}*/
 
 #barra{
     background-image: linear-gradient(to right,#73c9eb,#cb75e0);
@@ -207,6 +219,8 @@ h1,h2,h3,h4,h5,h6, p { /*cor das letras*/
     justify-content: center;
 }
 
+
+
 #b{/*aluguel em meses e preço*/
     width: 100%;
     height: 75px;
@@ -235,6 +249,11 @@ h1,h2,h3,h4,h5,h6, p { /*cor das letras*/
     position: relative;
     text-decoration: none;
 }
+.botao:hover{
+    transition:0.7s;
+	box-shadow:1px 1px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+} 
 /*cupom*/
 #content2{
     grid-area: "content";
@@ -261,3 +280,74 @@ h1,h2,h3,h4,h5,h6, p { /*cor das letras*/
 
 }
 
+/*PRODUTOS DETALHE*/
+
+.blocod{
+    background-color: #ffffff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	min-height: 80%;
+	min-width: 50%;
+    max-width: 60%;
+	border-radius: 8px;
+	gap: 20px;
+	padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    text-align:center;
+
+}
+.brinque2 {/*div*/
+    display: grid;
+       gap: 20px;
+       padding: 50px;
+       justify-items: center;
+       align-items: center;
+   }
+.brinque2 img {/*imagens dos produtos*/
+	max-width: 50%;
+	height: auto;
+    border:5px solid #ffffff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.bd{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bd h4{
+    margin:8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+    padding: 12px;
+}
+#bd h4:hover{
+    transition:0.7s;
+    background-color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+} 
+.h21, .p1{
+margin-left: 50px;
+    display: flex;
+    text-align: left;
+    margin-right: 50px;
+}
+/*    rodape          */
+#rodape{
+	font-size:9px;
+	background-color:white;
+	text-align:center;
+	height:30px;
+	border-top: 1px solid #c3c3ff;
+	bottom:0;
+	margin-top:30px;
+	width:100%;
+	
+}
