@@ -352,3 +352,46 @@ margin-left: 50px;
 	width:100%;
 	
 }
+/* parte do cadastro */
+
+#img-cad{
+    width: 350px;
+    height: 350px;
+    margin-top:40px;
+}
+
+label{
+    width: 200px;
+    height: 200px;
+}
+/* parte do formulário */
+form{
+    width: 450px;
+    height: 430px;
+    margin-top:240px;
+    margin-bottom:70px;
+}
+input{
+    width:280px;
+    height:25px;
+}
+#labels{
+    font-size:23px;
+    font-family: 'Oswald', sans-serif;   
+    color: #445E8C;
+}
+button{
+    width:200px;
+    height:30px;
+    margin-top:25px;
+    margin-left:40px;
+    background-color:green;
+    color:white;
+    font-style:oblique;
+}
+h4{
+    text-align:center;
+    margin-left:580px;
+    color:rgb(255, 255, 255);
+    font-size:20px;
+}
