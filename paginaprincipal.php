@@ -15,8 +15,6 @@
 </head>
 <body>
 
-
-
     <div id="header">
             <img src="img/logo.png" alt="Logo do Site ToyStore Brinquedos" id="logo">
 
