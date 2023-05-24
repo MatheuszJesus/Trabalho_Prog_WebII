@@ -38,7 +38,7 @@
             <div id="partedotexto">
             <h1>Brinquedo Dotys</h1>
             <h2>Quantidade: 1</h2>
-            <h2>Valor do aluguel: 60</h2>
+            <h2>Valor do aluguel: 60,00</h2>
             <h2>Tempo do aluguel: 4 meses</h2>
             </div>
 
@@ -58,7 +58,7 @@
             <div id="partedotexto">
             <h1>Brinquedo dos Carros</h1>
             <h2>Quantidade: 3</h2>
-            <h2>Valor do aluguel: 180</h2>
+            <h2>Valor do aluguel: 180,00</h2>
             <h2>Tempo do aluguel: 4 meses</h2>
             </div>
 
@@ -77,7 +77,7 @@
             <div id="partedotexto">
             <h1>Boneca Barbie</h1>
             <h2>Quantidade: 2</h2>
-            <h2>Valor do aluguel: 120</h2>
+            <h2>Valor do aluguel: 120,00</h2>
             <h2>Tempo do aluguel: 4 meses</h2>
             </div>
 
@@ -95,7 +95,7 @@
             <div id="partedotexto">
             <h1>Brinquedo Lego</h1>
             <h2>Quantidade: 1</h2>
-            <h2>Valor do aluguel: 60</h2>
+            <h2>Valor do aluguel: 60,00</h2>
             <h2>Tempo do aluguel: 4 meses</h2>
             </div>
 
@@ -115,7 +115,7 @@
             <div id="partedotexto">
             <h1>Brinquedo de Encaixe</h1>
             <h2>Quantidade: 1</h2>
-            <h2>Valor do aluguel: 60</h2>
+            <h2>Valor do aluguel: 60,00</h2>
             <h2>Tempo do aluguel: 4 meses</h2>
             </div>
 
@@ -123,7 +123,7 @@
                 <button class="botao" id="botao1"> Remover do carrinho </button>
                 <button class="botao" id="botao2">Confirmar compra</button>
             </div>
-
+<br>
     </div>
     <footer id="rodape">
 		<p class="fim"><br>&copy; 2023 T0YSTORE&trade; - Todos os direitos reservados.</p>
