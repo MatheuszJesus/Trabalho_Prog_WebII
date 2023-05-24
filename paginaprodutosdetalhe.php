@@ -34,7 +34,7 @@ if (isset($brinquedos[$prod])) {
 
 
     <div id="header"><!--MENU-->
-            <a href="paginaprincipal.php"><img src="img/logo.png" alt="Logo do Site ToyStore Brinquedos" id="logo"></a>
+            <a href="paginaprincipal.php" ><img src="img/logo.png" alt="Logo do Site ToyStore Brinquedos" id="logo"></a>
 
             <div id="barra">
                 <a href="paginaprincipal.php" class="amarelo" id="empresa">Empresa</a>
@@ -70,7 +70,7 @@ if (isset($brinquedos[$prod])) {
                     <strong>R$: <?=$brinque['preço3']?>,00</strong>
                 </h4></div>
 <div class="botao">
-          <a class="branco" href="paginacarrinhos.php?i=<?=$i?>"><!--botao para alugar-->
+          <a class="branco" href="carrinho.php?i=<?=$i?>"><!--botao para alugar-->
                Alugar agora 
             </a>
                 </div>

@@ -16,7 +16,7 @@
 <body>
 
     <div id="header">
-            <img src="img/logo.png" alt="Logo do Site ToyStore Brinquedos" id="logo">
+            <a href="paginaprincipal.php"><img src="img/logo.png" alt="Logo do Site ToyStore Brinquedos" id="logo"></a>
 
             <div id="barra">
                 <a href="paginaprincipal.php" class="amarelo" id="empresa">Empresa</a>
