@@ -54,9 +54,9 @@
                 </form>
         </div>
     </div>
-    <!-- <div id="footer-cadastro">
-		<h4>©2023 TOY STORE - Todos os direitos reservados.</h4>
-    </div> -->
+    <footer id="rodape">
+		<p class="fim"><br>&copy; 2023 T0YSTORE&trade; - Todos os direitos reservados.</p>
+	</footer>
 
 </body>
 </html>
