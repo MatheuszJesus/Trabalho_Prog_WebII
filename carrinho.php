@@ -72,7 +72,6 @@
             <div id="card-carrinho">
             <div>
                 <img src="img/barbie.jpeg" alt="">
-
             </div>
 
             <div id="partedotexto">

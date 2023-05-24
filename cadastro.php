@@ -19,7 +19,6 @@
 
     <div id="header">
             <a href="paginaprincipal.php"><img src="img/logo.png" alt="Logo do Site ToyStore Brinquedos" id="logo"></a>
-
             <div id="barra">
                 <a href="paginaprincipal.php" class="amarelo" id="empresa">Empresa</a>
                 <a href="paginaprodutos.php" class="amarelo" id="produtos">Produtos</a>
