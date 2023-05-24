@@ -24,7 +24,7 @@
                 <a class="amarelo" id="empresa">Empresa</a>
                 <a class="amarelo" id="cupons">Cupons</a>
                 <a href="" class="amarelo" id="contato">Contato</a>
-                <a class="amarelo" id="carrinho">Carrinho</a>
+                <a href="carrinho.php" class="amarelo" id="carrinho">Carrinho</a>
             </div>
     </div>
 

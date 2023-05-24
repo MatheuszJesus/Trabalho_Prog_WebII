@@ -352,7 +352,7 @@ margin-left: 50px;
 	width:100%;
 	
 }
-/* parte do cadastro */
+/* parte do cadastro 
 
 #img-cad{
     width: 350px;
@@ -364,7 +364,7 @@ label{
     width: 200px;
     height: 200px;
 }
-/* parte do formulário */
+/* parte do formulário 
 form{
     width: 450px;
     height: 430px;
@@ -395,3 +395,58 @@ h4{
     color:rgb(255, 255, 255);
     font-size:20px;
 }
+
+/*parte do carrrinho*/
+
+    #card-carrinho{
+        background-color: white;
+        width: 80vw;
+        height: 50vh;
+        margin-top: 40px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #content-carrinho{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #card-carrinho img{
+        width: 300px;
+        height: 300px;
+        margin-left: 20px;
+
+    }
+    #partedotexto{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    #partedobotao{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    
+    .botao{
+        width: 200px;
+        height: 50px;
+        color: white;
+        transition: 0.3s ease-in-out;
+    }
+
+    #botao1{
+        background-color: red;
+    }
+
+    #botao2{
+        background-color: green;
+    }
+
+    .botao:hover{
+        transform: translateY(-5px);
+    }
