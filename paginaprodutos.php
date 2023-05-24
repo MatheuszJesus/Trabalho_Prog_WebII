@@ -62,15 +62,15 @@
                 <div id=b ><!--meses e preço-->
                 <h4 href="paginaprodutosdetalhe.php?i=<?=$i?>">
                     <?=$brinque['aluguel1']?><br>
-                    <strong><?=$brinque['preço1']?></strong>
+                    <strong>R$: <?=$brinque['preço1']?></strong>
                 </h4>
                 <h4 href="paginaprodutosdetalhe.php?i=<?=$i?>">
                     <?=$brinque['aluguel2']?><br>
-                    <strong><?=$brinque['preço2']?></strong>
+                    <strong>R$: <?=$brinque['preço2']?></strong>
                 </h4>
                 <h4 href="paginaprodutosdetalhe.php?i=<?=$i?>">
                     <?=$brinque['aluguel3']?><br>
-                    <strong><?=$brinque['preço3']?></strong>
+                    <strong>R$: <?=$brinque['preço3']?></strong>
                 </h4></div>
 <div class="botao">
           <a class="branco" href="paginaprodutosdetalhe.php?i=<?=$i?>"><!--botao para alugar-->

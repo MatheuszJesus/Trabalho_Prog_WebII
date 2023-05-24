@@ -59,15 +59,15 @@ if (isset($brinquedos[$prod])) {
                 <div id=bd ><!--meses e preço-->
                 <h4>
                     <?=$brinque['aluguel1']?><br>
-                    <strong><?=$brinque['preço1']?></strong>
+                    <strong>R$: <?=$brinque['preço1']?></strong>
                 </h4>
                 <h4>
                     <?=$brinque['aluguel2']?><br>
-                    <strong><?=$brinque['preço2']?></strong>
+                    <strong>R$: <?=$brinque['preço2']?></strong>
                 </h4>
                 <h4>
                     <?=$brinque['aluguel3']?><br>
-                    <strong><?=$brinque['preço3']?></strong>
+                    <strong>R$: <?=$brinque['preço3']?></strong>
                 </h4></div>
 <div class="botao">
           <a class="branco" href="paginacarrinhos.php?i=<?=$i?>"><!--botao para alugar-->
