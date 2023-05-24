@@ -13,6 +13,7 @@ body{
     'footer'
     ;
 }
+
 div {
     display: flex;
 }
@@ -85,8 +86,6 @@ div {
     margin: 15px;
 }
 
-/*teste*/
-
 #cadastro{
     grid-area: "carrinho";
     margin: 15px;
@@ -136,9 +135,9 @@ div {
 
 }
 
-#imgbebe{
-    width: 450px;
-    height: 450px;
+#conteudopt2 img{
+    width: 400px;
+    height: 400px;
 }
 
 #produtos{
@@ -178,6 +177,66 @@ div {
     font-family: 'Oswald', sans-serif;
     text-align:center;
 }
+
+#areacontato{
+    width: 1500px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#areacontato h3{
+    font-size: 15px;
+    margin: 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#areacontato h3:hover{
+    font-size: 18px;
+}
+
+#pt1{
+    display: flex;
+    flex-direction: column;
+}
+
+#pt2{
+    display: flex;
+    flex-direction: column;
+}
+
+#pt3{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-redes{
+    width: 1500px;
+    height: 80px;
+    background-color: white;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#logo-redes img{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#logo-redes img:hover{
+    transform: translateY(-5px);
+}
+
+
 
 
 /* PAGINA DE PRODUTOS  */

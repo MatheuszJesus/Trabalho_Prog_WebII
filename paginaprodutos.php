@@ -30,7 +30,7 @@
             <div id="barra">
                 <a href="paginaprincipal.php" class="amarelo" id="empresa">Empresa</a>
                 <a href="paginaprodutos.php" class="amarelo" id="produtos">Produtos</a>
-                <a href="" class="amarelo" id="contato">Contato</a>
+                <a href="#areacontato" class="amarelo" id="contato">Contato</a>
                 <a href="carrinho.php" class="amarelo" id="carrinho">Carrinho</a>
                 <a href="cadastro.php"class="amarelo" id="cadastro">Cadastro</a>
             </div>
@@ -82,6 +82,31 @@
         <?php
             }
         ?>
+    </div>
+
+    <div id="areacontato">
+        <div id="pt1">
+            <h3>Conheça a ToyStore</h3>
+            <h3>Perguntas Frequentes</h3>
+            <h3>Fale Conosco</h3>
+            <h3>Vale Presente</h3>
+        </div>
+        <div id="pt2">
+            <h3>Termos de Uso</h3>
+            <h3>Política de Privacidade</h3>
+            <h3>Trocas e Devoluções</h3>
+        </div>
+        <div id="pt3">
+            <h3>ToyStore</h3>
+            <h3>Aluguel de Brinquedos e <br>Produtos para Bebês em Brumado</h3>
+            <h3>IFBA - Brumado, Bahia</h3>
+            <h3>Contato: (77) 99999-9999</h3>
+        </div>
+    </div>
+    <div id="logo-redes">
+        <img src="img/facebook.png" alt="facebook">
+        <img src="img/twitter.png" alt="twitter">
+        <img src="img/google.png" alt="google">
     </div>
         	<!-- FINAL DA PAGINA  -->	
 	<footer id="rodape">
