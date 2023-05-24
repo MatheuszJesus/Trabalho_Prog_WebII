@@ -83,6 +83,7 @@ if (isset($brinquedos[$prod])) {
 		</div>
 			<h2 class="h21">DESCRIÇÃO DO BRINQUEDO</h2>
 		<p class="p1 "><?=$brinque['funcionamento']?> </p>
+        <br><br>
 	<!-- FINAL DA PAGINA  -->	
 	<footer id="rodape">
 		<p class="fim"><br>&copy; 2023 T0YSTORE&trade; - Todos os direitos reservados.</p>
