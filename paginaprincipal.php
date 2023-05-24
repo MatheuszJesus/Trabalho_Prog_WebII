@@ -23,7 +23,7 @@
                 <a href="paginaprodutos.php" class="amarelo" id="produtos">Produtos</a>
                 <a href="" class="amarelo" id="contato">Contato</a>
                 <a href="carrinho.php" class="amarelo" id="carrinho">Carrinho</a>
-                <a href="cadastro.php"class="amarelo" id="carrinho">Cadastro</a>
+                <a href="cadastro.php"class="amarelo" id="cadastro">Cadastro</a>
             </div>
     </div>
 
