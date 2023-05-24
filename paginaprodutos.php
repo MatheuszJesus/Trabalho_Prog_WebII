@@ -73,7 +73,7 @@
                     <strong>R$: <?=$brinque['preço3']?>,00</strong>
                 </h4></div>
 <div class="botao">
-          <a class="branco" href="paginaprodutosdetalhe.php?i=<?=$i?>"><!--botao para alugar-->
+          <a class="branco" href="paginaprodutosdetalhe.php"><!--botao para alugar-->
                Alugar agora 
             </a>
 		</div>
