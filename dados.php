@@ -221,17 +221,5 @@
         utiliza de conceitos básicos, como a queda da bolinha que muito provavelmente irá encantar o bebê.",
 
     ]
-    
-    
-
-
-
-
-
-
-
-
-
-
    ]
 ?>

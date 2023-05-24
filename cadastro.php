@@ -18,7 +18,7 @@
 
 
     <div id="header">
-            <img src="img/logo.png" alt="Logo do Site ToyStore Brinquedos" id="logo">
+            <a href="paginaprincipal.php"><img src="img/logo.png" alt="Logo do Site ToyStore Brinquedos" id="logo"></a>
 
             <div id="barra">
                 <a class="amarelo" id="empresa">Empresa</a>
@@ -54,7 +54,7 @@
                 </form>
         </div>
     </div>
-    <!-- <div id="footer">
+    <!-- <div id="footer-cadastro">
 		<h4>©2023 TOY STORE - Todos os direitos reservados.</h4>
     </div> -->
 
