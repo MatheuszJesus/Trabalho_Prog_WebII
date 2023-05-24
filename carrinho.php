@@ -21,8 +21,8 @@
             <a href="paginaprincipal.php"><img src="img/logo.png" alt="Logo do Site ToyStore Brinquedos" id="logo"></a>
 
             <div id="barra">
-                <a class="amarelo" id="empresa">Empresa</a>
-                <a class="amarelo" id="cupons">Cupons</a>
+                <a href="paginaprincipal.php" class="amarelo" id="empresa">Empresa</a>
+                <a href="paginaprodutos.php" class="amarelo" id="produtos">Produtos</a>
                 <a href="" class="amarelo" id="contato">Contato</a>
                 <a href="carrinho.php" class="amarelo" id="carrinho">Carrinho</a>
                 <a href="cadastro.php"class="amarelo" id="cadastro">Cadastro</a>

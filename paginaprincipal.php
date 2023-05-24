@@ -19,7 +19,7 @@
             <img src="img/logo.png" alt="Logo do Site ToyStore Brinquedos" id="logo">
 
             <div id="barra">
-                <a class="amarelo" id="empresa">Empresa</a>
+                <a href="paginaprincipal.php" class="amarelo" id="empresa">Empresa</a>
                 <a href="paginaprodutos.php" class="amarelo" id="produtos">Produtos</a>
                 <a href="" class="amarelo" id="contato">Contato</a>
                 <a href="carrinho.php" class="amarelo" id="carrinho">Carrinho</a>
