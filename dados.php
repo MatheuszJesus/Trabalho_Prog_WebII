@@ -78,7 +78,7 @@
     [        
         "brinquedo" => "Mesinha de Atividades Didática com Som e Luz",
         "marca" => "Zoopy Toys",
-        "foto" => "img/.jpeg",
+        "foto" => "img/mesinha.jpg",
         "aluguel1" => "4 meses",
         "aluguel2" => "3 meses",
         "aluguel3" => "2 meses",
@@ -183,7 +183,7 @@
         "preço1" => 95.90 ,    
         "preço2" => 75.90 ,
         "preço3" => 55.90 ,       
-        "funcionamento" => "O Ouriço Divertido da Fhiser-Price é um brinquedo fofo e aparentemente simples, mas que apresentamuutos benefícios
+        "funcionamento" => "O Ouriço Divertido da Fhiser-Price é um brinquedo fofo e aparentemente simples, mas que apresenta muitos benefícios
         para o desenvolvimento dos sentidos. Uma vez que estimula o tato, a audição e visão desde os primeiros meses de vida.",
 
     ],
@@ -213,20 +213,6 @@
         "preço3" => 37.90 ,         
         "funcionamento" => "Este brinquedo é um chocalho que possui duas alças com textura que já estimula o tato, um desenho muito bonitinho de um
         cachorro colorido que desperta e trabalha com o sentido da visão e uma boliha que faz barulho de chocalho, contribuindo assim, com a audição.",
-
-    ],
-    [        
-        "brinquedo" => "Torre Espiral",
-        "marca" => "BUBA",
-        "foto" => "img/torre.jpeg",
-        "aluguel1" => "4 meses",
-        "aluguel2" => "3 meses",
-        "aluguel3" => "2 meses",
-        "preço1" => 65.90 ,    
-        "preço2" => 55.90 ,
-        "preço3" => 35.90 ,         
-        "funcionamento" => "Esse brinquedo a visão, tato, coordenação motora e cognição, uma vesz que é feito com diferentes texturas e também
-        utiliza de conceitos básicos, como a queda da bolinha que muito provavelmente irá encantar o bebê.",
 
     ]
    ]
