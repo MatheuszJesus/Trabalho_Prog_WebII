@@ -48,6 +48,32 @@
             </div>
         </div>
     </div>
+	<div id="historia">
+        <div id="texth">
+            <h1>Nossa História</h1>
+            <p>A ToyStore é uma marca que foi inaugurada em 2020, quando o mundo vivia no apice da pandemia queriamos que todos tivessem acesso aos melhores produtos para suas crianças sem precisar sair de casa, sempre visando o melhor atendimento possível e a maior qualidade dos produtos mesmo mantendo a boa qualidade e durabilidade. Pro futuro visamos expandir a nossa empresa para outras regiões e fazer com que os nossos produtos sejam reconhecidos e renomados por todo o Brasil.</p>
+        </div>
+        <div>
+            <img src="img/mesinha.jpg" alt="Imagem de Brinquedo">
+        </div>
+
+    </div>
+
+    <div id="perguntas">
+        <div>
+            <img src="img/cars.jpeg" alt="Imagem de Brinquedo">
+        </div>
+        <div id="textp">
+            <h1>Perguntas Frequentes</h1>
+            <h2>Onde vocês entregam ?</h2>
+            <p>Brumado e região</p>
+            <h2>Possuem loja física ?</h2>
+            <p>Não.</p>
+            <h2>Entregam em qualquer residência ?</h2>
+            <p>Sim, entregamos em qualquer residência em Brumado e nas proximidades.</p>
+        </div>
+
+    </div>
     <div id="areacontato">
         <div id="pt1">
             <h3>Conheça a ToyStore</h3>
