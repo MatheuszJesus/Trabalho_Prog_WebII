@@ -178,6 +178,79 @@ div {
     text-align:center;
 }
 
+/*parte historia*/
+
+#historia{
+    background-color: white;
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#historia img{
+    width: 400px;
+    height: 400px;
+    margin-right: 100px;
+}
+
+#texth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+
+#texth p{
+    text-align: justify;
+    margin-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+#texth h1{
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Parte perguntas*/
+
+#perguntas{
+    background-color: white;
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#perguntas img{
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+#textp{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    
+}
+
+#textp p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#textp h1{
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 100px;
+}
 #areacontato{
     width: 1500px;
     height: 400px;
