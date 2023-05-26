@@ -37,8 +37,8 @@
     </div>
     <div id="content2">
         <div id="cupom"><!--CUPOM-->
-            <h1 class="cortexto2" id="texto4">Ganhe 10% de desconto na sua primeira compra <br> na nossa loja usando o cupom
-            TOYSTORE10<br> + FRETE GRÁTIS em compras acima de 199,99 reais.</h1>
+            <h1 class="cortexto2" id="texto4">Ganhe 10% de desconto no seu primeiro aluguel <br> feito na nossa loja usando o cupom
+            TOYSTORE10<br> + FRETE GRÁTIS ao alugar produtos acima de 199,99 reais.</h1>
         </div>
    
     </div>
