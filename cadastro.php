@@ -33,7 +33,7 @@
             <img id ="img-cad"src="img/bebeprinc.png">
         </div>
         <div id="conteudopt2">
-            <form action="" method="get">
+            <form action="" method="post">
                     <label id="labels">Nome Completo:<br>
                             <input type="text" id="nome" name="nome" required>
                     </label>
